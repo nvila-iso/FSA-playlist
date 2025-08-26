@@ -18,7 +18,7 @@ app.route("/playlist/:index").get((req, res) => {
   const song = playlist[index];
 
   if (!song) {
-    return res.status(400).send("Not listed");
+    return res.status(404).send("That song does not exist in the playlist.");
   }
   res.send(song);
 });
