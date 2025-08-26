@@ -5,3 +5,7 @@ const playlist = [
   "Sound of Voices",
   "Tearful Paradise",
 ];
+
+
+
+export default playlist;
